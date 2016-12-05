@@ -1,0 +1,57 @@
+/* Tags  */
+
+html, body {
+  margin:0;
+}
+
+
+/* Typografy */
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+h1, h2, h3, h4 {
+  font-family: 'Dancing Script', cursive;
+}
+
+section {
+  font-weight: bold;
+  text-align: justify;;
+}
+
+
+/* Sections and styling */
+body {
+  background: #FF4136;
+}
+
+section {
+  width:66%;
+  color:#ffffff;
+}
+
+.color-box {
+  width:40px;
+  height: 40px;s
+}
+
+/* Color helpers */
+
+.red-bg { background-color: #FF4136; }
+.red-hi-bg { background-color: #EB6B64; }
+.red-sh-bg { background-color: #B0312A; }
+
+.green-bg { background-color: #2AC63D; }
+.green-hi-bg { background-color: #4EB65B; }
+.green-sh-bg { background-color: #20882D; }
+
+.blue-bg { background-color: #3353AC; }
+.blue-hi-bg { background-color: #4D639E; }
+.blue-sh-bg { background-color: #263B76; }
+
+.yellow-bg { background-color: #F9FE36; }
+.yellow-hi-bg { background-color: #E7EA64; }
+.yellow-sh-bg { background-color: #ACAF2A; }
+
+.white-text { color: #ffffff; }
+.black-text { color: #111111; }
