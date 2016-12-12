@@ -1,0 +1,160 @@
+/* Tags  */
+
+
+
+/* Typografy */
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+h1, h2, h3, h4 {
+  font-family: 'Dancing Script', cursive;
+}
+
+section {
+  font-weight: bold;
+  text-align: justify;;
+}
+
+/* Navigation */
+
+.navbar {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-justify-content: justify;
+  justify-content: justify;
+  width:100%;
+}
+
+.navh1 {
+  -webkit-flex: 1;
+  flex: 1;
+  text-align: center;
+  color: #D83423;
+}
+
+.navh1 a {
+  color: #D83423;
+  text-decoration: none;
+}
+
+a.anchor {
+    display: block;
+    position: relative;
+    top: -150px;
+    visibility: hidden;
+}
+/* Sections and styling */
+body, html, .container-fluid  {
+  padding: 0;
+  margin: 0;
+  height: 100%;
+}
+
+#header0 {
+    background-image:url("img/0.jpg");
+}
+
+#header1 {
+    background-image:url("img/1.jpg");
+}
+
+#header2 {
+    background-image:url("img/2.jpg");
+}
+
+#header3 {
+    background-image:url("img/3.jpg");
+}
+
+
+#header0 {
+  min-height: 100%;
+  height: 100%;
+}
+
+#header1, #header2, #header3 {
+  min-height: 50%;
+  height: 50%;
+}
+
+section {
+  width: 100%;
+  padding-left: 20%;
+  padding-right: 20%;
+  padding-top: 2%;
+  padding-bottom: 4%;
+}
+
+footer {
+  width: 100%;
+  padding-left: 20%;
+  padding-right: 20%;
+  padding-top: 2%;
+  padding-bottom: 4%;
+  min-height: 75%;
+  height: 75%;
+}
+
+.shadow {
+   -moz-box-shadow:    inset 0 7px 9px -7px #000000;
+   -webkit-box-shadow: inset 0 7px 9px -7px #000000;
+   box-shadow:         inset 0 7px 9px -7px #000000;
+}
+
+.parallax {
+  position: relative;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Items */
+
+#logo-div {
+  width:15%;
+  top:5%;
+  left:2%;
+}
+
+#logo {
+  width: 100%;
+}
+
+.snowflakes {
+  width:7em;
+  margin-left: auto;
+  margin-right: auto;
+  clear:both;
+}
+
+.snowflakes img {
+  width: 2em;
+}
+
+
+/* Color helpers */
+
+.red-bg { background-color: #D83423; }
+.red-hi-bg { background-color: #EB6B64; }
+.red-sh-bg { background-color: #B0312A; }
+
+.green-bg { background-color: #2AC63D; }
+.green-hi-bg { background-color: #4EB65B; }
+.green-sh-bg { background-color: #20882D; }
+
+.blue-bg { background-color: #3353AC; }
+.blue-hi-bg { background-color: #4D639E; }
+.blue-sh-bg { background-color: #263B76; }
+
+.yellow-bg { background-color: #F9FE36; }
+.yellow-hi-bg { background-color: #E7EA64; }
+.yellow-sh-bg { background-color: #ACAF2A; }
+
+.grey-bg { background-color: #aaaaaa; }
+.grey-hi-bg { background-color: #d6e6e6s; }
+.grey-sh-bg { background-color: #7e7e7e; }
+
+.white-text { color: #ffffff; }
+.black-text { color: #111111; }
