@@ -1,5 +1,9 @@
 /* Tags  */
 
+a, a:hover, a:visited {
+  text-decoration: none;
+  color:#ffffff;
+}
 
 /* Typografy */
 body {
@@ -87,7 +91,16 @@ a.anchor {
     top: -150px;
     visibility: hidden;
 }
+
+#sponsorer.anchor {
+    top: 0px;
+}
+
+
+
 /* Sections and styling */
+
+
 body, html, .container-fluid  {
   padding: 0;
   margin: 0;
@@ -141,8 +154,8 @@ footer {
   padding-right: 20%;
   padding-top: 2%;
   padding-bottom: 4%;
-  min-height: 75%;
-  height: 75%;
+  min-height: 100%;
+  height: 100%;
 }
 
 .shadow {
@@ -191,7 +204,7 @@ footer {
 }
 
 #nti-logo {
-  width: 80%;
+  width: 100%;
   max-width: 300px;
 }
 
@@ -204,6 +217,29 @@ footer {
 
 .snowflakes img {
   width: 2em;
+}
+
+@media screen and (max-width: 990px) {
+    .by-icons{
+        display:none;
+    }
+}
+
+@media screen and (min-width: 991px) {
+    .by-icons {
+        display: inline;
+    }
+}
+
+
+.icons {
+  font-size: 2em;
+  margin: 1em;
+}
+
+.by-icons {
+  font-size: 0.8em;
+  vertical-align: middle;
 }
 
 
