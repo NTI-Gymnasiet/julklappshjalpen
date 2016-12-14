@@ -1,6 +1,9 @@
 /* Tags  */
 
-
+a, a:hover, a:visited {
+  text-decoration: none;
+  color:#ffffff;
+}
 
 /* Typografy */
 body {
@@ -11,12 +14,56 @@ h1, h2, h3, h4 {
   font-family: 'Dancing Script', cursive;
 }
 
-section {
-  font-weight: bold;
-  text-align: justify;;
+
+
+@media screen and (max-width: 600px) {
+  section {
+    text-align: left;
+  }
 }
 
+@media screen and (min-width: 601px) {
+  section {
+    text-align: justify;
+  }
+}
+
+section {
+  font-weight: bold;
+}
+
+.em {
+  margin-top: 2em;
+  padding-left: 2em;
+  padding-right: 2em;
+  text-align: center;
+  font-size: 1.4em;
+  font-style: normal;
+  font-weight: bold;
+}
+
+
+
 /* Navigation */
+
+@media screen and (max-width: 800px) {
+    .navbar {
+        flex-direction:column;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .navh1 {
+        font-size: 1.5em;
+    }
+}
+
+
+@media screen and (min-width: 801px) {
+  .navbar {
+      flex-direction:row;
+  }
+}
 
 .navbar {
   display: -webkit-flex;
@@ -44,11 +91,21 @@ a.anchor {
     top: -150px;
     visibility: hidden;
 }
+
+#sponsorer.anchor {
+    top: 0px;
+}
+
+
+
 /* Sections and styling */
+
+
 body, html, .container-fluid  {
   padding: 0;
   margin: 0;
   height: 100%;
+  min-width: 100%;
 }
 
 #header0 {
@@ -76,10 +133,15 @@ body, html, .container-fluid  {
 #header1, #header2, #header3 {
   min-height: 50%;
   height: 50%;
+  z-index: 0;
+}
+
+header {
+  min-width: 100%;
 }
 
 section {
-  width: 100%;
+  min-width: 100%;
   padding-left: 20%;
   padding-right: 20%;
   padding-top: 2%;
@@ -87,13 +149,13 @@ section {
 }
 
 footer {
-  width: 100%;
+  min-width: 100%;
   padding-left: 20%;
   padding-right: 20%;
   padding-top: 2%;
   padding-bottom: 4%;
-  min-height: 75%;
-  height: 75%;
+  min-height: 100%;
+  height: 100%;
 }
 
 .shadow {
@@ -112,25 +174,72 @@ footer {
 
 /* Items */
 
-#logo-div {
-  width:15%;
-  top:5%;
-  left:2%;
+@media screen and (max-width: 800px) {
+    #logo-div {
+        position: absolute;
+        width:70%;
+        margin-top: 5%;
+        margin-left:15%;
+        margin-right:15%;
+    }
 }
+
+@media screen and (min-width: 801px) {
+    #logo-div {
+        position: fixed;
+        width:15%;
+        top:5%;
+        left:2%;
+    }
+}
+
+
+#logo-div {
+  z-index: 1000;
+}
+
 
 #logo {
   width: 100%;
 }
 
+#nti-logo {
+  width: 100%;
+  max-width: 300px;
+}
+
 .snowflakes {
-  width:7em;
-  margin-left: auto;
-  margin-right: auto;
+  width:100%;
+  padding-top: 40px;
+  text-align: center;
   clear:both;
 }
 
 .snowflakes img {
   width: 2em;
+}
+
+@media screen and (max-width: 990px) {
+    .by-icons{
+        display:none;
+    }
+}
+
+@media screen and (min-width: 991px) {
+    .by-icons {
+        display: inline;
+    }
+}
+
+
+.icons {
+  font-size: 2em;
+  margin: 1em;
+}
+
+.by-icons {
+  font-size: 0.8em;
+  vertical-align: middle;
 }
 
 
