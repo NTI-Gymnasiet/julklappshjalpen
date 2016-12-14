@@ -234,12 +234,13 @@ footer {
 
 .icons {
   font-size: 2em;
-  margin: 1em;
+  margin: 1em 1em 0 1em;
 }
 
 .by-icons {
   font-size: 0.8em;
   vertical-align: middle;
+  margin: 0 1em 0 1em;
 }
 
 
