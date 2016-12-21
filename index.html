@@ -40,8 +40,9 @@
 <body class="red-bg">
 <div class=" container-fluid">
   <header id="header0" class="header row parallax shadow">
+    <a id="start"></a>
     <div id="logo-div" >
-          <img id="logo" src="img/logo.png">
+          <a href="#start"><img id="logo" src="img/logo.png"></a>
     </div>
   </header>
 
@@ -268,17 +269,26 @@
   </footer>
 
 
-
-
-
-
-
-  <nav class="navbar navbar-default navbar-fixed-bottom">
+  <nav id="wide-menu" class="navbar navbar-default navbar-fixed-bottom">
     <h1 class="navh1"><a href="#valkommen">Välkommen</a></h1>
     <h1 class="navh1"><a href="#soka-hjalp">Söka hjälp</a></h1>
     <h1 class="navh1"><a href="#ge-hjalp">Ge hjälp</a></h1>
     <h1 class="navh1"><a href="#vanliga-fragor">Vanliga frågor</a></h1>
     <h1 class="navh1"><a href="#sponsorer">Sponsorer</a></h1>
+  </nav>
+
+
+
+
+  <nav id="narrow-menu" class="navbar navbar-default navbar-fixed-bottom">
+    <div class="collapse" id="menu-main">
+    <h1 class="navh1"><a href="#valkommen">Välkommen</a></h1>
+    <h1 class="navh1"><a href="#soka-hjalp">Söka hjälp</a></h1>
+    <h1 class="navh1"><a href="#ge-hjalp">Ge hjälp</a></h1>
+    <h1 class="navh1"><a href="#vanliga-fragor">Vanliga frågor</a></h1>
+    <h1 class="navh1"><a href="#sponsorer">Sponsorer</a></h1>
+  </div>
+    <h1 class="navh1" id="menu-toggle" type="button" data-toggle="collapse" data-target="#menu-main" aria-expanded="false" aria-controls="menu-main"><span class="fa fa-bars"></span></h1>
   </nav>
 
 </div>
